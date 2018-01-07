@@ -1,0 +1,78 @@
+/* http://www.palettefx.com/ */
+
+body 
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+#main 
+{
+/*    border: 1px dotted black; */
+}
+
+#helloSite 
+{
+/*    border: 1px dotted red; */
+    height: 100vh;    
+    background: url(image.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+}
+
+#helloSite #helloContainer 
+{
+    /*border: 2px dotted white;*/
+    color: #ddffff;
+    text-shadow: 3px 3px #112200;
+    -webkit-text-fill-color: #ddffff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #445500;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+#helloSite #helloContainer h1 
+{
+    font-size: 100px;
+    padding-top: 50px;
+}
+
+#helloSite #helloContainer h2
+{
+    font-size: 50px;
+    padding-top: 30px;
+    padding: 20px;
+}
+
+#bookingSite 
+{
+/*    border: 1px dotted green; */
+    height: 100vh;
+    background: linear-gradient(#55ccff, #99ccbb);
+}
+
+#infoSite 
+{
+/*    border: 1px dotted blue; */
+    background: linear-gradient(#99ccbb, #ddffff);
+    height: 100vh;
+}
+
+#contactSite 
+{
+/*    border: 1px dotted pink; */
+    background: linear-gradient(#ddffff, #ffee00);
+    height: 100vh;
+}
+
+footer
+{
+    height: 50px;
+    background-color: #bbbb00; 
+}
