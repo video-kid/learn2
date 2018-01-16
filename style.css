@@ -64,18 +64,25 @@ body
     background-color: #00aaff;
 }
 
+#bookingSite #menu.sticky
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 #bookingSite #menu .menuElement
 {
     border: 1px dotted black;
     width: 80px;
     height: 100%;
-    float: left;
+    float: right;
     color: #cceedd;
 }
 
 #infoSite 
 {
-/*    border: 1px dotted blue; */
+    border: 1px dotted blue;
     background: linear-gradient(#99ccbb, #ddffff);
     height: 100vh;
 }
