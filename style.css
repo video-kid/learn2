@@ -64,7 +64,7 @@ body
     background-color: #00aaff;
 }
 
-#bookingSite #menu.sticky
+.sticky
 {
     position: fixed;
     top: 0;
