@@ -1,22 +1,17 @@
 $(document).ready(function()
 {
-    /* let stickyMenu = $('#bookingSite #menu');
-    
-
-    let majonez = function() {
-        stickyMenu.toggleClass('sticky');
-    };
-
-    stickyMenu.click(majonez); */
 
     let letItSticky = function(selector) {
         let element = $(selector);
-
-        let toggleHandler = function() {
-            element.toggleClass('sticky');
-        }
-
-        element.click(toggleHandler);
+        
+        $(document).scroll(function(e){
+            let position = $(e.target).scrollTop();
+            let elementPosition = element.offset();
+            console.log(position);
+        });
+/* ^ w tym miejscu rejestruje do eventu scroll funkcję, kiedy wystąpi event to do funcji zostanie
+przekazany obiekt eventu jako e */
+        
     }
 
     letItSticky('#bookingSite #menu');
