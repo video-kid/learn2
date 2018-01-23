@@ -7,7 +7,7 @@ $(document).ready(function()
 
         $(document).scroll(function(e){
             let position = $(e.target).scrollTop();
-
+ 
             if (position >= elementPosition) {
                 element.addClass('sticky');
             } else {
@@ -21,4 +21,14 @@ przekazany obiekt eventu jako e */
     }
 
     letItSticky('#bookingSite #menu');
+
+    let PicChanger = function() {
+        let clicker = $('#infoSite li');
+        clicker.eq( 0 ).click(function(){
+            alert('klik');
+        });
+    };
+
+    PicChanger();
+
 });

@@ -1,5 +1,9 @@
 /* http://www.palettefx.com/ */
 
+* {
+    box-sizing: border-box;
+}
+
 body 
 {
     font-family: 'Lato', sans-serif;
@@ -87,11 +91,27 @@ body
     height: 100vh;
 }
 
+#infoContainer .infoElement {
+    border: 1px dotted blue;
+    float: left;
+    width: 50%;
+    height: 90vh;
+}
+
+ #infoPic {
+    background: url(city.jpg);
+    overflow: hidden;
+}
+
 #contactSite 
 {
 /*    border: 1px dotted pink; */
     background: linear-gradient(#ddffff, #ffee00);
     height: 100vh;
+}
+
+#infoSite li {
+    display: inline-block;
 }
 
 footer
