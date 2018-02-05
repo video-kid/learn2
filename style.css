@@ -89,6 +89,15 @@ header hgroup h2
     height: 100%;
     float: right;
     color: #cceedd;
+    position: relative;
+}
+
+.menuElement span
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #infoSite 
