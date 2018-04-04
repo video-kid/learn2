@@ -24,6 +24,7 @@ header
     width: 100%;
     background: url(image.jpg);
     background-size: cover;
+     filter: brightness(85%);
     background-position: center;
     /* position: relative;  */
     position: fixed;
@@ -61,18 +62,22 @@ header hgroup h2
     padding: 20px;
 }
 
+section {
+    background-color: #BDBDBD;
+}
+
 #bookingSite 
 {
-/*    border: 1px dotted green; */
+    border: 1px dotted green;
     height: 100vh;
-    background: linear-gradient(#55ccff, #99ccbb);
 }
 
 #bookingSite #menu
 {
     border: 1px dotted green;
-    height: 50px;
-    background-color: #00aaff;
+    height: 100px;
+    background-color: #0288D1;
+    box-shadow: 0 2px 9px 0px #212121;
 }
 
 .sticky
@@ -85,7 +90,7 @@ header hgroup h2
 #bookingSite #menu .menuElement
 {
     border: 1px dotted black;
-    width: 80px;
+    width: 100px;
     height: 100%;
     float: right;
     color: #cceedd;
@@ -103,19 +108,17 @@ header hgroup h2
 #infoSite 
 {
     border: 1px dotted blue;
-    background: linear-gradient(#99ccbb, #ddffff);
     height: 100vh;
 }
 
 #contactSite 
 {
-/*    border: 1px dotted pink; */
-    background: linear-gradient(#ddffff, #ffee00);
+    border: 1px dotted pink; 
     height: 100vh;
 }
 
 footer
 {
     height: 50px;
-    background-color: #bbbb00; 
+    border: grey;
 }
