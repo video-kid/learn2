@@ -17,20 +17,18 @@ main
     position: relative;
 }
 
-header 
+mainImg 
 {
-/*    border: 1px dotted red; */
-    height: 100vh;    
-    width: 100%;
     background: url(image.jpg);
     background-size: cover;
-     filter: brightness(85%);
+    height: 100vh;    
+    width: 100%;
     background-position: center;
-    /* position: relative;  */
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
+    filter: brightness(80%);
+
 }
 
 header hgroup 
@@ -62,7 +60,8 @@ header hgroup h2
     padding: 20px;
 }
 
-section {
+section 
+{
     background-color: #BDBDBD;
 }
 
@@ -70,6 +69,7 @@ section {
 {
     border: 1px dotted green;
     height: 100vh;
+    position: relative;
 }
 
 #bookingSite #menu
@@ -78,6 +78,7 @@ section {
     height: 100px;
     background-color: #0288D1;
     box-shadow: 0 2px 9px 0px #212121;
+    z-index: 1;
 }
 
 .sticky
@@ -103,6 +104,33 @@ section {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#bookingSite #cgroup 
+{
+    border: 2px dotted violet;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+#bookingSite #cgroup .column
+{
+    border: 2px dotted black;
+    width: 40px;
+    height: 50px;
+    float: left;
+    position: relative;
+}
+
+#bookingSite #cgroup .column span 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
 }
 
 #infoSite 
