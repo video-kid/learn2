@@ -110,23 +110,30 @@ section
 {
     border: 2px dotted violet;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 20px;
+    padding: 50px;
 }
 
 #bookingSite #cgroup .column
 {
-    border: 2px dotted black;
+    /* border: 2px dotted black; */
     width: 40px;
     height: 50px;
     float: left;
     position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: #03A9F4;
+    box-shadow: 0 2px 9px 0px #212121;
 }
 
 #bookingSite #cgroup .column span 
 {
+    color: white;
+    font-size: 80px;
     position: absolute;
     top: 50%;
     left: 50%;
