@@ -75,7 +75,6 @@ section
 #bookingSite #menu
 {
     border: 1px dotted green;
-    height: 100px;
     background-color: #0288D1;
     box-shadow: 0 2px 9px 0px #212121;
     z-index: 1;
