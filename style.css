@@ -67,14 +67,15 @@ section
 
 #bookingSite 
 {
-    border: 1px dotted green;
+/*    border: 1px dotted green; */
     height: 100vh;
+    width: 100%;
     position: relative;
 }
 
 #bookingSite #menu
 {
-    border: 1px dotted green;
+    /*border: 1px dotted green; */
     background-color: #0288D1;
     box-shadow: 0 2px 9px 0px #212121;
     z-index: 1;
@@ -122,6 +123,10 @@ section
     box-shadow: 0 2px 9px 0px #212121;
 }
 
+#bookingSite #cgroup :hover {
+    background-color: #0288D1;
+}
+
 #bookingSite #cgroup .column span 
 {
     color: white;
@@ -132,13 +137,13 @@ section
     transform: translate(-50%, -50%);    
 }
 
-#infoSite 
+#findPlace 
 {
     border: 1px dotted blue;
     height: 100vh;
 }
 
-#contactSite 
+#planning
 {
     border: 1px dotted pink; 
     height: 100vh;
