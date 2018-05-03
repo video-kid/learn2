@@ -79,6 +79,11 @@ section
     background-color: #0288D1;
     box-shadow: 0 2px 9px 0px #212121;
     z-index: 1;
+    width: 100%;
+}
+
+#bookingSite #menu #menuContainer {
+    float: right;
 }
 
 .sticky
@@ -88,12 +93,12 @@ section
     width: 100%;
 }
 
-#bookingSite #menu .menuElement
+#bookingSite #menu #menuContainer .menuElement
 {
     border: 1px dotted black;
     min-width: 100px;
     height: 100%;
-    float: right;
+    float: left;
     color: #cceedd;
     text-align: center;
     padding: 40px;
