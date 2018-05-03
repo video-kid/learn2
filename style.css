@@ -4,34 +4,29 @@
     box-sizing: border-box;
 }
 
-body 
-{
+body {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
 }
 
-main 
-{
+main {
     margin-top: 100vh;
     position: relative;
 }
 
-mainImg 
-{
+mainImg {
     background: url(image.jpg);
     background-size: cover;
-    height: 100vh;    
+    height: 100vh;
     width: 100%;
     background-position: center;
     position: fixed;
     top: 0;
     left: 0;
     filter: brightness(80%);
-
 }
 
-header hgroup 
-{
+header hgroup {
     /*border: 2px dotted white;*/
     color: #ddffff;
     text-shadow: 3px 3px #112200;
@@ -44,58 +39,54 @@ header hgroup
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 20px;
+    position: fixed;
 }
 
-header hgroup h1 
-{
+header hgroup h1 {
     font-size: 100px;
     padding-top: 50px;
 }
 
-header hgroup h2
-{
+header hgroup h2 {
     font-size: 50px;
     padding-top: 30px;
     padding: 20px;
 }
 
-section 
-{
+section {
     /* background-color: #BDBDBD;*/
-    background-color: #B3E5FC
+    background-color: #b3e5fc
 }
 
-#bookingSite 
-{
-/*    border: 1px dotted green; */
+#bookingSite {
+    /*    border: 1px dotted green; */
     height: 100vh;
     width: 100%;
     position: relative;
 }
 
-#bookingSite #menu
-{
+#bookingSite #menu {
     /*border: 1px dotted green; */
     background-color: #0288D1;
     box-shadow: 0 2px 9px 0px #212121;
     z-index: 1;
     width: 100%;
+    height: 100px;
+    position: absolute;
 }
 
 #bookingSite #menu #menuContainer {
     float: right;
 }
 
-.sticky
-{
+#bookingSite #menu.sticky {
     position: fixed;
     top: 0;
     width: 100%;
 }
-
-#bookingSite #menu #menuContainer .menuElement
-{
-    border: 1px dotted black;
+ 
+#bookingSite #menu #menuContainer .menuElement {
+    /* POTEM TO OGARNE border: 1px solid #cceedd;*/
     min-width: 100px;
     height: 100%;
     float: left;
@@ -104,18 +95,23 @@ section
     padding: 40px;
 }
 
-#bookingSite #cgroup 
-{
-    border: 2px dotted violet;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 50px;
+#bookingSite #columnContainer {
+    /* border: fuchsia dotted 2px;*/
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    position: relative;
 }
 
-#bookingSite #cgroup .column
-{
+#bookingSite #columnContainer #cgroup {
+    /* border: 2px dotted violet; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#bookingSite #columnContainer #cgroup .column {
     /* border: 2px dotted black; */
     width: 40px;
     height: 50px;
@@ -132,30 +128,61 @@ section
     background-color: #0288D1;
 }
 
-#bookingSite #cgroup .column span 
-{
+#bookingSite #cgroup .column span {
     color: white;
     font-size: 80px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);    
+    transform: translate(-50%, -50%);
 }
 
-#findPlace 
-{
-    border: 1px dotted blue;
+#findPlace {
+    /* border: 1px dotted blue; */
     height: 100vh;
+    background: url(find2.jpg);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+
 }
 
-#planning
-{
-    border: 1px dotted pink; 
+#findPlace #findGradient {
+    background: linear-gradient(to left, rgba(255,0,0,0), rgb(179, 229, 252));
+    height: 100%;
+    width: 100%;
+}
+
+#planning {
+    border: 1px dotted pink;
     height: 100vh;
+    background: url(planning.jpg);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
 }
 
-footer
-{
+#planningGradient {
+    background: linear-gradient(to right, rgba(255,0,0,0), rgb(179, 229, 252));
+    height: 100%;
+    width: 100%;
+}
+
+#plane {
+    height: 100vh;
+    background: url(plane.jpg);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+#plane #planeGradient {
+    background: linear-gradient(to left, rgba(255,0,0,0), rgb(179, 229, 252));
+    height: 100%;
+    width: 100%;
+}
+
+footer {
     height: 50px;
     border: grey;
 }
