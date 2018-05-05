@@ -121,11 +121,13 @@ section {
     height: 150px;
     margin: 20px;
     background-color: #03A9F4;
+    /*background-color: orange;*/
     box-shadow: 0 2px 9px 0px #212121;
 }
 
-#bookingSite #cgroup :hover {
-    background-color: #0288D1;
+#bookingSite #columnContainer #cgroup .column:hover {
+     background-color: #0288D1;
+    /*background-color: red;*/
 }
 
 #bookingSite #cgroup .column span {
@@ -154,7 +156,7 @@ section {
 }
 
 #planning {
-    border: 1px dotted pink;
+    /*border: 1px dotted pink;*/
     height: 100vh;
     background: url(planning.jpg);
     background-size: cover;
