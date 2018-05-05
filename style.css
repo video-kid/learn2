@@ -146,7 +146,7 @@ section {
     background-size: cover;
     width: 100%;
     background-position: center;
-
+    border: red dashed 3px;
 }
 
 #findPlace #findGradient {
@@ -182,6 +182,12 @@ section {
     background: linear-gradient(to left, rgba(255,0,0,0), rgb(179, 229, 252));
     height: 100%;
     width: 100%;
+}
+
+#findPlace #contentBlock {
+    border: black solid 2px;
+    height: 50px;
+    width: 50px;
 }
 
 footer {
