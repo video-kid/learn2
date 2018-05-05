@@ -139,55 +139,84 @@ section {
     transform: translate(-50%, -50%);
 }
 
-#findPlace {
-    /* border: 1px dotted blue; */
+/* #findPlace {
+    border: 1px dotted blue; 
     height: 100vh;
     background: url(find2.jpg);
     background-size: cover;
     width: 100%;
     background-position: center;
-    border: red dashed 3px;
 }
 
 #findPlace #findGradient {
     background: linear-gradient(to left, rgba(255,0,0,0), rgb(179, 229, 252));
     height: 100%;
     width: 100%;
-}
+}*/
 
-#planning {
-    /*border: 1px dotted pink;*/
-    height: 100vh;
-    background: url(planning.jpg);
-    background-size: cover;
-    width: 100%;
-    background-position: center;
-}
-
+/*
 #planningGradient {
     background: linear-gradient(to right, rgba(255,0,0,0), rgb(179, 229, 252));
     height: 100%;
     width: 100%;
-}
+} */
 
-#plane {
-    height: 100vh;
-    background: url(plane.jpg);
-    background-size: cover;
-    width: 100%;
-    background-position: center;
-}
-
-#plane #planeGradient {
+.GradientL {
     background: linear-gradient(to left, rgba(255,0,0,0), rgb(179, 229, 252));
     height: 100%;
     width: 100%;
 }
 
-#findPlace #contentBlock {
-    border: black solid 2px;
-    height: 50px;
-    width: 50px;
+.GradientR {
+    background: linear-gradient(to right, rgba(255,0,0,0), rgb(179, 229, 252));
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    border: 4px dotted blue; 
+    position: relative;
+}
+
+.sectionContent {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.sectionContent article {
+    border: 2px solid green;
+    height: 90%;
+    width: 50%;
+    margin: 2.5%; 
+    padding: 2.5%;
+}
+
+section #findPlaceImg {
+    background: url(find2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+section #planningImg {
+    background: url(planning.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+section #planeImg {
+    background: url(plane.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
 }
 
 footer {
