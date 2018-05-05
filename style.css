@@ -139,34 +139,13 @@ section {
     transform: translate(-50%, -50%);
 }
 
-/* #findPlace {
-    border: 1px dotted blue; 
-    height: 100vh;
-    background: url(find2.jpg);
-    background-size: cover;
-    width: 100%;
-    background-position: center;
-}
-
-#findPlace #findGradient {
-    background: linear-gradient(to left, rgba(255,0,0,0), rgb(179, 229, 252));
-    height: 100%;
-    width: 100%;
-}*/
-
-/*
-#planningGradient {
-    background: linear-gradient(to right, rgba(255,0,0,0), rgb(179, 229, 252));
-    height: 100%;
-    width: 100%;
-} */
-
 .GradientL {
     background: linear-gradient(to left, rgba(255,0,0,0), rgb(179, 229, 252));
     height: 100%;
     width: 100%;
 }
 
+/*temporary: */
 .GradientR {
     background: linear-gradient(to right, rgba(255,0,0,0), rgb(179, 229, 252));
     height: 100%;
@@ -194,6 +173,8 @@ section {
     margin: 2.5%; 
     padding: 2.5%;
 }
+
+/*rodzielić obrazki  w sekcjach na dwa selektory, jeden z ustawieniami (klasa) i drugi z bkgrnd url (id)*/
 
 section #findPlaceImg {
     background: url(find2.jpg);
