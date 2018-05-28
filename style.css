@@ -145,7 +145,7 @@ section {
     width: 100%;
 }
 
-/*temporary: */
+/*temporary: to trzeba bedzie ogarnac selektorem pseudoklasy nth czhild odd czy cos*/
 .GradientR {
     background: linear-gradient(to right, rgba(255,0,0,0), rgb(179, 229, 252));
     height: 100%;
@@ -173,6 +173,11 @@ section {
     margin: 2.5%; 
     padding: 2.5%;
 }
+
+section:nth-child(odd) article {
+    float: right;
+}
+
 
 /*rodzielić obrazki  w sekcjach na dwa selektory, jeden z ustawieniami (klasa) i drugi z bkgrnd url (id)*/
 
@@ -204,3 +209,4 @@ footer {
     height: 50px;
     border: grey;
 }
+
