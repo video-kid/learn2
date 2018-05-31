@@ -155,7 +155,7 @@ section {
 section {
     height: 100vh;
     width: 100%;
-    border: 4px dotted blue; 
+    /*border: 4px dotted blue; */
     position: relative;
 }
 
@@ -167,7 +167,7 @@ section {
 }
 
 .sectionContent article {
-    border: 2px solid green;
+/*border: 2px solid green;*/
     height: 90%;
     width: 50%;
     margin: 2.5%; 
@@ -207,6 +207,6 @@ section #planeImg {
 
 footer {
     height: 50px;
-    border: grey;
+    /* border: grey; */
 }
 
