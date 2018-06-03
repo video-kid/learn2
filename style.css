@@ -160,6 +160,7 @@ section {
 }
 
 .sectionContent {
+    padding: 40px;
     position: absolute;
     top: 0;
     height: 100%;
@@ -167,11 +168,14 @@ section {
 }
 
 .sectionContent article {
-/*border: 2px solid green;*/
+    /*border: 2px solid green;*/
     height: 90%;
     width: 50%;
     margin: 2.5%; 
     padding: 2.5%;
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 1px rgb(42, 63, 63);
 }
 
 section:nth-child(odd) article {
